@@ -853,7 +853,7 @@ if (antiVirtex) {
         Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
-        
+        ✨️MAGIC✨️
         if (AntiLinkTiktok)
            if (budy.includes("https://chat.whatsapp.com/${linkgce}")){
         if (!isBotAdmins) return
@@ -1334,7 +1334,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} hallo👋. Ich bin ${global.BotName}, ein Bot entwickelt von : Sebastian um Ihre WhatsApp-Nutzung auf die nächste Stufe zu bringen.
+    Konichiwa ${pushname} hallo👋. Ich bin ${global.BotName}, ein Bot entwickelt von : ✨️MAGIC✨️ um Ihre WhatsApp-Nutzung auf die nächste Stufe zu bringen.
         
        「 System Info 」
     
@@ -1364,7 +1364,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Sebastian*
+    ©️ *${global.BotName}* All Rights Reserved by: *✨️MAGIC✨️*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1385,8 +1385,8 @@ return list[Math.floor(list.length * Math.random())]
       reply (`Konichiwa *${pushname}* naa was machst du soo.`);
     } 
    
-    if (smallinput=='!') {
-      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Sebastian* and curbarently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
+    if (smallinput=='-') {
+      reply (`Hallo *${pushname}*, Ich bin *${BotName}*, ein WhatsApp-Bot von *✨️MAGIC✨️* und wird derzeit von gehostet *${OwnerName}*.  Schreibe  *${prefix}help* um meine vollständige Befehlsliste zu erhalten.`);
     }
 
     if (smallinput=='lol') {
@@ -1503,12 +1503,14 @@ case 'reaction': case 'react': case 'reactions': case 'r':
 case 'ping': case 'a2': case 'p': case 'a':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *「 System Info 」*\n
-                Speed : ${latensie.toFixed(4)} 
-                mls Up Time : ${runtime(process.uptime())}
-                Bot Name : ${global.BotName}
-                Owner Name : ${global.OwnerName}
-		𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}`)
+            reply(`「 System Info 」
+    
+    Speed : ${latensie.toFixed(4)} miliseconds
+    Up Time : ${runtime(process.uptime())}
+    Bot Name : ${global.BotName}
+    Owner Name : ${global.OwnerName}
+    𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Amazon AWS
+    𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}`)
         break
 
 case 'limituser': case 'userlimit': case 'limit':
@@ -1529,7 +1531,7 @@ case 'sup': case 'support': case 'frage': case '!':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
             reply(` *Support* \n Hallo, *${pushname}* danke für deine Support Anfrage, derzeit ist es uns nicht möglich eine Weiterleitung an die Supportgruppe zu stellen, bitte schreibe deine Anfrage in dieser Gruppe erneut, 
-         Link: https://chat.whatsapp.com/DOnXPARAhdg3qptwUlPuye`)
+            Link: https://chat.whatsapp.com/DOnXPARAhdg3qptwUlPuye`)
         break
 		
 		
@@ -1538,9 +1540,9 @@ case 'ow': case 'ownergruppen': case 'og': case 'gruppen':
         if (isBanChat) return reply(mess.bangc)
 	if (!isBotAdmins) return replay(mess.botadmin)
             reply(`*MkM Gruppen*
-		Chatt: https://chat.whatsapp.com/HaH0LDojg3MC5Lgz17BDSS 
-		Werbe: https://chat.whatsapp.com/JlO7hNBJcsX2qOhMjpKul8
- 		Support: https://chat.whatsapp.com/DOnXPARAhdg3qptwUlPuye`)
+ Chatt: https://chat.whatsapp.com/HaH0LDojg3MC5Lgz17BDSS 
+ Werbe: https://chat.whatsapp.com/JlO7hNBJcsX2qOhMjpKul8
+ Support: https://chat.whatsapp.com/DOnXPARAhdg3qptwUlPuye`)
         break
 
 
@@ -3917,13 +3919,13 @@ case 'nsfwloli' :  {
     if (!AntiNsfw) return reply(mess.nonsfw)
     
 reply(mess.waiting)
- waifudhgd = await getBuffer(`https://api-reysekha.herokuapp.com/api/wallpaper/${command}?apikey=APIKEY  `)     
+ waifudhgd = await getBuffer('https://api-reysekha.herokuapp.com/api/wallpaper/${command}?apikey=APIKEY  ')     
  let nsfwapireply = [
-    {buttonId: `${prefix}${command}`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}${command}`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let nsfwapimess = {
    image: waifudhgd,
-   caption:  `Here it is...`,
+   caption:  `Hier ist es...`,
   buttons: nsfwapireply,
   headerType: 1
   }     
@@ -3945,13 +3947,13 @@ case 'ahegao' : case 'ass' : case 'bdsm' :  case 'cuckold' :  case 'cum' : case 
     if (!AntiNsfw) return reply(mess.nonsfw)
     
     reply(mess.waiting)
-     waifudhgd = await getBuffer(`https://api-reysekha.herokuapp.com/api/nsfw/${command}?apikey=APIKEY`)     
+     waifudhgd = await getBuffer('https://api-reysekha.herokuapp.com/api/nsfw/${command}?apikey=APIKEY')     
      let nsfwapireply = [
-        {buttonId: `${prefix}${command}`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix}${command}`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let nsfwapimess = {
        image: waifudhgd,
-       caption:  `Here it is...`,
+       caption:  `Hier ist es...`,
       buttons: nsfwapireply,
       headerType: 1
       }     
@@ -3995,13 +3997,13 @@ case 'trap' :
     if (!m.isGroup) return replay(mess.grouponly)
     if (!AntiNsfw) return reply(mess.nonsfw)
 reply(mess.waiting)
- waifudd = await axios.get(`https://waifu.pics/api/nsfw/${command}`)       
+ waifudd = await axios.get('https://waifu.pics/api/nsfw/${command}')       
  let trapbot = [
-    {buttonId: `${prefix}trap`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}trap`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let button2Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `Hier ist es...`,
   buttons: trapbot,
   headerType: 1
   }     
@@ -4018,9 +4020,9 @@ case 'hn' :
     if (!m.isGroup) return replay(mess.grouponly)
     if (!AntiNsfw) return reply(mess.nonsfw)
 reply(mess.waiting)
-    waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
+    waifudd = await axios.get('https://waifu.pics/api/nsfw/neko')
  let hnekobot = [
-    {buttonId: `${prefix+command}`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix+command}`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let button3Messages = {
    image: {url:waifudd.data.url},
@@ -4041,13 +4043,13 @@ case 'hh' :
     if (!m.isGroup) return replay(mess.grouponly)
     if (!AntiNsfw) return reply(mess.nonsfw)
 reply(mess.waiting)
-    waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`)         
+    waifudd = await axios.get('https://waifu.pics/api/nsfw/waifu')         
  let nwaifubot = [
-    {buttonId: `${prefix+command}`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix+command}`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let button4Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `Hier ist es...`,
   buttons: nwaifubot,
   headerType: 1
   }      
@@ -4064,13 +4066,13 @@ case 'smug2':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 reply(mess.waiting)						
- waifudd = await axios.get(`https://nekos.life/api/v2/img/smug`)
+ waifudd = await axios.get('https://nekos.life/api/v2/img/smug')
                            var wbuttsss = [
-        {buttonId: `${prefix}smug2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix}smug2`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let button1ssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `Hier ist es...`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4085,9 +4087,9 @@ case 'foxgirl' :
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)							
- waifudd = await axios.get(`https://nekos.life/api/v2/img/fox_girl`)
+ waifudd = await axios.get('https://nekos.life/api/v2/img/fox_girl')
                            var wbuttsss = [
-        {buttonId: `${prefix}foxgirl`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix}foxgirl`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let button12ssMessages = {
        image: {url:waifudd.data.url},
@@ -4106,13 +4108,13 @@ case 'animenom' :
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)
-    waifudd = await axios.get(`https://waifu.pics/api/sfw/nom`)
+    waifudd = await axios.get('https://waifu.pics/api/sfw/nom')
  let xxhnekobot = [
-    {buttonId: `${prefix}animenom`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}animenom`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let xx1button3Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `Hier ist es...`,
   buttons: xxhnekobot,
   headerType: 1
   }      
@@ -4126,13 +4128,13 @@ case 'waifu3':
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)						
- waifudd = await axios.get(`https://nekos.life/api/v2/img/waifu`)
+ waifudd = await axios.get('https://nekos.life/api/v2/img/waifu')
                            var wbuttsss = [
-        {buttonId: `${prefix}waifu3`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix}waifu3`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let button112ssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `Hier ist es...`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4149,7 +4151,7 @@ case 'crossplay': case 'crosplay': case 'cosplay':
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
                 const buttons = [
-        {buttonId: `${prefix}crossplay`, buttonText: {displayText: '>>'}, type: 1},
+        {buttonId: `${prefix}crossplay`, buttonText: {displayText: 'Weiter...'}, type: 1},
             ]               
         const cosplybutton = {
         image: {url: 'https://hanzz-web.herokuapp.com/api/randomimage/cosplay'},
@@ -4175,11 +4177,11 @@ case 'neko2':
 reply(mess.waiting)							
    waifud = await axios.get('https://waifu.pics/api/sfw/neko')
                 var wbutsss = [
-        {buttonId: `${prefix}neko2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix}neko2`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let buttonssMessage = {
        image: {url:waifud.data.url},
-       caption:  `Here it is...`,
+       caption:  `Hier ist es...`,
       footer: `${global.BotName}`,
       buttons: wbutsss,
       headerType: 4
@@ -4198,13 +4200,13 @@ case 'tickle':
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)							
- waifudd = await axios.get(`https://nekos.life/api/v2/img/${command}`)
+ waifudd = await axios.get('https://nekos.life/api/v2/img/${command}')
                            var wbuttsss = [
-        {buttonId: `${prefix+command}`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `${prefix+command}`, buttonText: {displayText: 'Weiter...'}, type: 1},
         ]
       let buttonssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `Hier ist es...`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4223,7 +4225,7 @@ case 'cry':  case 'handhold':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)	
-	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	var pat = await fetchJson('https://api.waifu.pics/sfw/${command}')
 	try {
 		let messsender = m.sender
 let musers=``
@@ -4260,7 +4262,7 @@ case 'nom':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)	
-	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	var pat = await fetchJson('https://api.waifu.pics/sfw/${command}')
 	try {
 		let messsender = m.sender
 let musers=``
@@ -4297,7 +4299,7 @@ case 'hug':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)	
-	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	var pat = await fetchJson('https://api.waifu.pics/sfw/${command}')
 	try {
 		let messsender = m.sender
 let musers=``
@@ -4430,7 +4432,7 @@ case 'cringe': case 'highfive':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)	
-	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	var pat = await fetchJson('https://api.waifu.pics/sfw/${command}')
 	try {
 		let messsender = m.sender
 let musers=``
@@ -4497,7 +4499,7 @@ if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)							
 ud = await axios.get('https://waifu.pics/api/sfw/megumin')
 var wbutsss = [
-    {buttonId: `${prefix}megumin`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}megumin`, buttonText: {displayText: 'Weiter...'}, type: 1},
          ]
       let buttonzMessage = {
       image: {url:ud.data.url},
@@ -4516,9 +4518,9 @@ case 'awoo':
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
     reply(mess.waiting)						
- waifudd = await axios.get(`https://waifu.pics/api/sfw/awoo`)
+ waifudd = await axios.get('https://waifu.pics/api/sfw/awoo')
  var wbuttsss = [
-    {buttonId: `${prefix}awoo`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}awoo`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
   let button1Messages = {
    image: {url:waifudd.data.url},
@@ -4548,7 +4550,7 @@ const wall = new AnimeWallpaper();
             .catch(() => null);
 const i = Math.floor(Math.random() * wallpaper.length);
 var walb = [
-        {buttonId: `${prefix}animewall2 ${q}`, buttonText: {displayText: `>>`}, type: 1},        
+        {buttonId: `${prefix}animewall2 ${q}`, buttonText: {displayText: 'WEiter...'}, type: 1},        
         ]
       let wal = {
        image: {url:wallpaper[i].image},
@@ -4651,7 +4653,7 @@ case 'waifu' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/waifu')
  var wbuttsssr = [
-    {buttonId: `${prefix}waifu`, buttonText: {displayText: `Brauch Mehr`}, type: 1},
+    {buttonId: `${prefix}waifu`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
         let button4Messagess = {
         image: {url:waifuddd.data.url},
@@ -4672,7 +4674,7 @@ case 'neko' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/neko')
  var wbuttsssr = [
-    {buttonId: `${prefix}neko`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}neko`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
         let buttonMessagessf = {
         image: {url:waifuddd.data.url},
@@ -4694,7 +4696,7 @@ case 'loli' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/shinobu')
  var wbuttsssr = [
-    {buttonId: `${prefix}loli`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `${prefix}loli`, buttonText: {displayText: 'Weiter...'}, type: 1},
     ]
         let buttonMessagessfgr = {
         image: {url:waifuddd.data.url},
@@ -4795,7 +4797,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu': case 'hilfe
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-Ich bin *Miku Nakano*, ein von *Sebastian* entwickelter Bot.
+Ich bin *Miku Nakano*, ein von *✨️MAGIC✨️* entwickelter Bot.
 
 🔰 Mein Präfix ist:  ${prefix}
 
@@ -4887,7 +4889,7 @@ reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomec
 
 
  『  *${global.BotName}*  』
- Powered by: *Sebastian*
+ Powered by: *✨️MAGIC✨️*
 
  🔰 Um einen dieser Befehle zu verwenden, geben Sie ein
  " *${prefix}<Befehlsname>* ".`
