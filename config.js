@@ -7,28 +7,28 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['436764242454']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
-global.OwnerNumber = ['436764242454']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
-global.ownertag = ['436764242454']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.Owner = ['4915212908434']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.OwnerNumber = ['4915212908434']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.ownertag = ['4915212908434']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
 global.BotName = "Miku-beta"
 global.packname = "Erstellt für mein Meister"
-global.author = "ich"
-global.OwnerName = "Sebastian"
-global.BotSourceCode = "https://github.com/FantoX001/Miku-MD" // -- Please don't change -- //
-global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"  // -- Please don't change -- //
+global.author = "✨️MAGIC✨️"
+global.OwnerName = "✨️MAGIC✨️"
+global.BotSourceCode = "https://github.com/Fw437f" // -- Please don't change -- //
+global.SupportGroupLink = "https://chat.whatsapp.com/C4UvfSXyYZoDSV3gJDyCm3"  // -- Please don't change -- //
 global.sessionName = "session"  // -- Don't change otherwise bot will not work -- //
 
 
 
-global.prefa = ['!'] // Prefix ---  change it to anythong you want except '@' //
+global.prefa = ['-'] // Prefix ---  change it to anythong you want except '@' //
 
 
 global.location = "West-Berlin"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://github.com/Kai0071"
-global.lolhuman = "Sebastian"
+global.websitex = "https://github.com/Fw437f"
+global.lolhuman = "✨️MAGIC✨️"
 
 
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg")
