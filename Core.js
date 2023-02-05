@@ -853,7 +853,7 @@ if (antiVirtex) {
         Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
-        ✨️MAGIC✨️
+	
         if (AntiLinkTiktok)
            if (budy.includes("https://chat.whatsapp.com/${linkgce}")){
         if (!isBotAdmins) return
