@@ -27,14 +27,14 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHallo, I am Sebastian, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Sebi127391','aqua'))
+console.log(color('\nHallo, Ich bin ✨️MAGIC✨️, der Hauptentwickler dieses Bots.\n\nDanke für die Nutzung: Miku Bot','aqua'))
+console.log(color('\nSie können mir auf GitHub folgen: Fw437f','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Miku by: Sebastian','Safari','1.0.0'],
+        browser: ['Miku by: ✨️MAGIC✨️','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -98,19 +98,19 @@ Miku.ev.on('groups.update', async pea => {
         if (pea[0].announce == true) {
         //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Miku Bot`, wm_fatih, [])
 
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop wurde *geschlossen!* Nur *Admins* können Nachrichten senden!'})
         } else if(pea[0].announce == false) {
        // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Miku Bot`, wm_fatih, [])
-       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!'})
+       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop wurde *geöffnet!* Jetzt kann *jeder* Nachrichten senden!'})
         } else if (pea[0].restrict == true) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Die Änderung von Gruppeninformationen wurde *eingeschränkt*, jetzt können nur *Admins* Gruppeninformationen bearbeiten !'})
         } else if (pea[0].restrict == false) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Die Änderung der Gruppeninformationen wurde *unbeschränkt*, jetzt kann nur *jeder* Gruppeninformationen bearbeiten !'})
         } else {
         //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Miku Bot`, wm_fatih, [])
-        mikutextddfq =`Group Subject has been updated To:\n\n*${pea[0].subject}*`
+        mikutextddfq =`Gruppenbetreff wurde aktualisiert auf:\n\n*${pea[0].subject}*`
         Miku.sendMessage(pea[0].id, { image: wm_fatih, caption: mikutextddfq})
       }
      })
@@ -152,9 +152,9 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *Miku Nakano*, Welcome to ${metadata.subject}.
+Ich bin *Miku Nakano*, Willkommen zu ${metadata.subject}.
 
-*Group Description:*
+*Gruppenbeschreibung:*
 ${metadata.desc}
 `
 
